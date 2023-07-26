@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --main-color-1: #93e1d8;
+  --main-color-1-light: #ddfff7;
+  --main-color-1-lighter: #c6efea;
+  --main-color-1-lightest: #ecfffb;
+  --accent-color: #ffa69e;
+  --main-color-2: #637081;
+  --main-color-2-dark: #536b78;
+}
+body {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.wrapper {
+  padding: 2vh;
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  grid-template-rows: 96vh;
+  column-gap: 2vh;
+}
+
+form {
+  background-color: var(--main-color-1);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  column-gap: 1vh;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+#textarea {
+  width: 100%;
+  height: 100%;
+  justify-self: left;
+  background-color: var(--main-color-1-light);
+  border: none;
+  border-radius: 16px;
+  font-family: 'Share Tech Mono', monospace;
+  padding: 16px;
+  font-size: 20px;
+}
+
+.settings-wrapper {
+  display: grid;
+  grid-template-rows: 6.2fr 3.8fr;
+  padding: 16px;
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid var(--accent-color); */
+  background-color: var(--main-color-1-lighter);
+  border-radius: 16px;
+}
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  justify-self: left;
+  align-self: flex-start;
+  font-family: 'Share Tech Mono', monospace;
+}
+fieldset {
+  justify-self: left;
+  align-self: flex-start;
+}
+
+.after {
+  background-color: var(--main-color-2);
+  width: 100%;
+  height: 100%;
+  padding: 32px;
+  border-radius: 16px;
+  font-size: 20px;
+  color: var(--main-color-1-lightest);
+}

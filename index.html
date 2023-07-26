@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Units Converter</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="" class="form">
+        <textarea name="before" id="textarea"></textarea>
+
+        <div class="settings-wrapper">
+          <fieldset>
+            <legend>Choose convertation units:</legend>
+            <h3>Px to Vw</h3>
+            <div>
+              <input
+                type="radio"
+                id="px-to-vw-1920"
+                name="drone"
+                value="px-to-vw-1920"
+                checked
+              />
+              <label for="px-to-vw-1920">Px to Vw (1920)</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="px-to-vw-1610"
+                name="drone"
+                value="px-to-vw-1610"
+              />
+              <label for="px-to-vw-1610">Px to Vw (1610)</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="px-to-vw-1080"
+                name="drone"
+                value="px-to-vw-1080"
+              />
+              <label for="px-to-vw-1080">Px to Vw (1080)</label>
+            </div>
+            <h3>Vw to Px</h3>
+            <div>
+              <input
+                type="radio"
+                id="vw-1920-to-px"
+                name="drone"
+                value="vw-1920-to-px"
+              />
+              <label for="vw-1920-to-px">Vw (1920) to Px</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="vw-1610-to-px"
+                name="drone"
+                value="vw-1610-to-px"
+              />
+              <label for="vw-1610-to-px">Vw (1610) to Px</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="vw-1080-to-px"
+                name="drone"
+                value="vw-1080-to-px"
+              />
+              <label for="vw-1080-to-px">Vw (1080) to Px</label>
+            </div>
+            <h3>Vw to Vw</h3>
+            <div>
+              <input
+                type="radio"
+                id="vw-1920-to-vw-1610"
+                name="drone"
+                value="vw-1920-to-vw-1610"
+              />
+              <label for="vw-1920-to-vw-1610">Vw (1920) to Vw (1610)</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="vw-1610-to-vw-1920"
+                name="drone"
+                value="vw-1610-to-vw-1920"
+              />
+              <label for="vw-1610-to-vw-1920">Vw (1610) to Vw (1920)</label>
+            </div>
+          </fieldset>
+          <button type="submit" id="btn">CONVERT</button>
+        </div>
+      </form>
+      <div class="after" id="output">sdfdfsf</div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
